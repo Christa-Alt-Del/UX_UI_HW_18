@@ -1,0 +1,96 @@
+/* Typography CSS */
+body {
+    margin:0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(-45deg, #FF6EB1, #A177D6, #FF6EB1)
+    }
+
+.h1 {
+    font-size: 64px;
+    font-family: Nunito;
+    color: white;
+}
+.h2 {
+    font-family: Nunito Semi-bold 600;
+    font-size: 36px;
+    color: white;
+}
+.h3 {
+    font-family: Nunito Semi-bold 600;
+    font-size: 24;
+    color: white;
+}
+.specialUse {
+    font-family: Nunito Black;
+    font-size: 18;
+    color: white;
+}
+.p {
+    font-family: Nunito Regular;
+    font-size: 18;
+    color: black;
+}
+
+/* Header CSS */
+header {
+    border-bottom: 8px solid white;
+    margin-top: 0;
+}
+.name {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.navBar {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navItem {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top:0px;
+    margin-bottom: 20px;
+}
+
+/* Skills Container */
+
+/* Tool Box Container*/
+
+/* Case Study Container */
+
+/* Footer CSS */
+footer {
+    margin-top: 50px;
+    border-top: 8px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline; 
+}
+.emailWhite {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.liWhite {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 0;
+    display:flex;
+    justify-content: center;
+}
