@@ -59,11 +59,182 @@ header {
 }
 
 /* Skills Container */
+.skillsTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.uxSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userResearch {
+    width: 305px;
+    height: 270;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+    border: 5px solid black;
+    background-color: #8D42F0;
+    display:flex;
+    flex-direction: column;
+   
+}
+.urTitle {
+    padding:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.urSummeryOne {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.urSummeryTwo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.userEmpathy {
+    width: 305px;
+    height: 270;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 25px;
+    border: 5px solid black;
+    background-color: #8D42F0;
+}
+.ueTitle {
+    padding:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.ueSUmmery {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.qualInter {
+    width: 305px;
+    height: 270;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 25px;
+    border: 5px solid black;
+    background-color: #8D42F0;
+    display:flex;
+    flex-direction: column;
+}
+.qiTitle {
+    padding:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.qiSummery {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 /* Tool Box Container*/
+.toolBox {
+    display: flex;
+    justify-content: center;
+}
+.toolBoxTitle {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.toolLists {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: #F1E7FD;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 
 /* Case Study Container */
+.caseStudies {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caseStudyTitle {
+    display: flex;
+    justify-content: center;
+}
+.mrdRedo {
+    border: 5px solid black;
+    background-color: #8D42F0;
+    border-radius: 25px;
+    height: 450px;
+    width: 1170px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.neonMrd {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.mrdSummery {
+    width: 800px;
+}
+.sageApp {
+    border: 5px solid black;
+    background-color: #8D42F0;
+    border-radius: 25px;
+    height: 450px;
+    width: 1170px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.sageScreen {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.sageSummery {
+    width: 800px;
+}
 
+.untetheredApp {
+    border: 5px solid black;
+    background-color: #8D42F0;
+    border-radius: 25px;
+    height: 450px;
+    width: 1170px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.untetheredScreen {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.untetheredSummery {
+    width: 800px;
+}
 /* Footer CSS */
 footer {
     margin-top: 50px;
